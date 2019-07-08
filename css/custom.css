@@ -1,0 +1,48 @@
+body {
+    background-color: #efefec;
+}
+
+table {
+    border: 1px solid black;
+}
+
+.container {
+
+    background-color: white;
+}
+
+.navbarYellow {
+    padding: 0px;
+}
+
+.navbar-light {
+    background-color: #ffcb05 !important;
+}
+
+.btn-primary {
+    background-color: #ffcb05;
+    color: black;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #f39c12;
+    color: black;
+}
+
+
+/* главная */
+
+.cards-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards-box > .card > .card-img-top {
+    width: 128px;
+    height: 128px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
